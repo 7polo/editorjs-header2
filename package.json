@@ -1,8 +1,7 @@
 {
-  "name": "@editorjs/header",
-  "version": "2.7.0",
+  "name": "@7polo/editorjs-header2",
+  "version": "0.0.3",
   "keywords": [
-    "codex editor",
     "header",
     "tool",
     "editor.js",
@@ -10,7 +9,6 @@
   ],
   "description": "Header Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/header",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",

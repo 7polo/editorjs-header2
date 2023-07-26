@@ -4,6 +4,7 @@
 import './index.css';
 
 import { IconH1, IconH2, IconH3, IconH4, IconH5, IconH6, IconHeading } from '@codexteam/icons';
+import {toPlainText} from "./utils";
 
 /**
  * @typedef {object} HeaderData
@@ -172,7 +173,7 @@ export default class Header {
    */
   save(toolsContent) {
     return {
-      text: toolsContent.innerHTML,
+      text: toPlainText(toolsContent.innerHTML),
       level: this.currentLevel.number,
     };
   }
@@ -290,6 +291,7 @@ export default class Header {
      * Add styles class
      */
     tag.classList.add(this._CSS.wrapper);
+    tag.classList.add(`${this.currentLevel.tag.toLowerCase()}`);
 
     /**
      * Make tag editable

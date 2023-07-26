@@ -2,9 +2,9 @@
  * Plugin styles
  */
 .ce-header {
-  padding: 0.6em 0 3px;
-  margin: 0;
-  line-height: 1.25em;
+  margin-top: 0.8em;
+  margin-bottom: .4em;
+  font-weight: 500;
   outline: none;
 }
 
@@ -12,6 +12,24 @@
 .ce-header div{
   padding: 0 !important;
   margin: 0 !important;
+}
+.ce-header.h1 {
+  font-size: 34px;
+}
+.ce-header.h2 {
+  font-size: 30px;
+}
+.ce-header.h3 {
+  font-size: 26px;
+}
+.ce-header.h4 {
+  font-size: 24px;
+}
+.ce-header.h5 {
+  font-size: 20px;
+}
+.ce-header.h6 {
+  font-size: 16px;
 }
 
 /**

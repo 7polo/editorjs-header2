@@ -11,13 +11,13 @@ Provides Headings Blocks for the [Editor.js](https://ifmo.su/editor).
 Get the package
 
 ```shell
-npm i --save @editorjs/header
+npm i --save @7polo/editorjs-header2
 ```
 
 Include module at your application
 
 ```javascript
-const Header = require('@editorjs/header');
+const Header = require('@7polo/editorjs-header2');
 ```
 
 ### Download to your project's source dir
