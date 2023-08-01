@@ -14,22 +14,22 @@
   margin: 0 !important;
 }
 .ce-header.h1 {
-  font-size: 34px;
-}
-.ce-header.h2 {
-  font-size: 30px;
-}
-.ce-header.h3 {
   font-size: 26px;
 }
-.ce-header.h4 {
-  font-size: 24px;
+.ce-header.h2 {
+  font-size: 22px;
 }
-.ce-header.h5 {
+.ce-header.h3 {
   font-size: 20px;
 }
-.ce-header.h6 {
+.ce-header.h4 {
+  font-size: 18px;
+}
+.ce-header.h5 {
   font-size: 16px;
+}
+.ce-header.h6 {
+  font-size: 15px;
 }
 
 /**
